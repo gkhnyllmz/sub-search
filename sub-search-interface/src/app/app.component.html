@@ -1,0 +1,10 @@
+<div class="flex flex-column surface-ground overflow-hidden" style="height: 100vh">
+  <p-menubar styleClass="shadow-3" [model]="menuItems">
+    <ng-template pTemplate="start">
+      <div class="mx-2 mb-1 font-bold text-xl">SubSearch</div>
+    </ng-template>
+  </p-menubar>
+  <div class="overflow-auto flex flex-column flex-grow-1">
+    <router-outlet></router-outlet>
+  </div>
+</div>

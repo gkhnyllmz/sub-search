@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0 !important;
+  background-color: var(--surface-a);
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text	{
+  font-weight: 500 !important;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: var(--primary-500) !important;
+  font-size: 1.25rem !important;
+}
